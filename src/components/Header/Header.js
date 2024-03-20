@@ -18,7 +18,7 @@ const Header = () => {
         {[like0, link1, link2, link3].map((link) => (
           <Link key={link.id} to={link.link}>{link.nameLink}</Link>
         ))}
-        <Download/>
+        <span className="button"><Download/></span>
       </Navigation>
     </HeaderContainer>
   );

@@ -10,7 +10,7 @@ export const HeaderContainer = styled.header`
   align-items: center;
 
   @media ${device.tablet} {
-    button {
+    .button {
       display: none;
     }
   }
@@ -26,7 +26,6 @@ export const Navigation = styled.nav`
 
   @media ${device.tablet} {
   grid-template-columns: 1fr 1fr 1.4fr 1fr;
-   
   }
 `;
 export const Link = styled(NavLink)`
