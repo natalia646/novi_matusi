@@ -18,7 +18,7 @@ const Button = styled(Link)`
   font-weight: 700;
   border-radius: 30px;
   background: ${colors.orange};
-  padding: 9px 25px;
+  padding: 10px 27px;
   color: white;
   border: none;
   font-family: Nunito Sans;

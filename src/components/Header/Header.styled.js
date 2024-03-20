@@ -3,13 +3,15 @@ import { NavLink } from "react-router-dom";
 import { colors, device } from "../../constants";
 
 export const HeaderContainer = styled.header`
-  margin: 1.4rem auto;
-  width: 86%;
+  margin: 1.5rem auto;
+  width: 87%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* position: sticky; */
 
   @media ${device.tablet} {
+    width: 94%;
     .button {
       display: none;
     }
