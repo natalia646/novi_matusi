@@ -21,7 +21,7 @@ export const Logo = styled.img`
 export const Navigation = styled.nav`
   display: grid;
   align-items: center;
-  grid-template-columns: 1fr 1fr 1.4fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1.2fr 1fr 1fr;
   text-align: center;
 
   @media ${device.tablet} {
