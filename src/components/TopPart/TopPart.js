@@ -1,5 +1,5 @@
 import React from "react";
-import Download from '../ButtonDow/Download';
+import Download from "../ButtonDow/Download";
 import { Link } from "react-router-dom";
 import {
   ArticleContainer,
@@ -8,7 +8,7 @@ import {
   H2,
   Paragraf,
   SectionForImages,
-  Buttons,
+  Buttons
 } from "./TopPart.styled";
 
 const TopPart = () => {
@@ -16,7 +16,8 @@ const TopPart = () => {
     <ArticleContainer>
       <SectionForText>
         <H1>
-          Отримай можливість працювати, в той час, як{" "}
+          Отримай можливість <br />
+          працювати, в той час, як{" "}
           <span style={{ color: "#2000C1" }}>
             <br />
             діти щасливі та у безпеці!
@@ -29,8 +30,10 @@ const TopPart = () => {
           по черзі у вільний час.
         </Paragraf>
         <Buttons>
-            <Download/>
-            <Link className='more' to ='/'>Дивитися більше</Link>
+          <Download />
+          <Link className="more" to="/">
+            Дивитися більше
+          </Link>
         </Buttons>
       </SectionForText>
       <SectionForImages></SectionForImages>
