@@ -43,9 +43,6 @@ export const Buttons = styled.div`
   margin: 7% 0;
 
   a {
-    /* width: 100%;
-    max-width: 14rem; */
-
     font-size: 1.5vw;
     text-align: center;
     border-radius: 30px;
@@ -70,7 +67,7 @@ export const Buttons = styled.div`
 `;
 
 export const SectionForImages = styled.section`
-  background-image: url(${photo2}) right bottom,
+  background: url(${photo2}) right bottom,
     url(${photo1}) right 45% top 10%;
   background-size: 38%, 35%;
   background-repeat: no-repeat;
