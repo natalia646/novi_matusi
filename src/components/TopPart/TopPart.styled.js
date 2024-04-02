@@ -3,7 +3,7 @@ import { colors, device } from "../../constants";
 import photo1 from "../../assets/photo/photo1.webp";
 import photo2 from "../../assets/photo/photo2.webp";
 
-export const ArticleContainer = styled.article`
+export const ArticleContainer = styled.section`
   width: 87%;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -13,7 +13,7 @@ export const ArticleContainer = styled.article`
   }
 `;
 
-export const SectionForText = styled.section`
+export const SectionForText = styled.article`
   display: grid;
   grid-template-columns: 1fr;
 `;
@@ -34,7 +34,7 @@ export const Paragraf = styled.p`
   grid-area: 3 / 1 / 4 / 2;
   font-size: 1.3vw;
 `;
-export const Buttons = styled.div`
+export const Buttons = styled.nav`
   max-width: 85%;
   grid-area: 4 / 1 / 5 / 2;
   display: grid;

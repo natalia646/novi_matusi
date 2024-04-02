@@ -36,7 +36,7 @@ const TopPart = () => {
           </Link>
         </Buttons>
       </SectionForText>
-      <SectionForImages></SectionForImages>
+      <SectionForImages/>
     </ArticleContainer>
   );
 };
