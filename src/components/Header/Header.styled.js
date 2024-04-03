@@ -19,15 +19,16 @@ export const HeaderContainer = styled.header`
 `;
 export const Logo = styled.img`
   width: 100%;
+  max-width: 3rem;
 `;
 export const Navigation = styled.nav`
   display: grid;
   align-items: center;
-  grid-template-columns: 1fr 1fr 1.2fr 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr) 1.2fr repeat(2, 1fr);
   text-align: center;
 
   @media ${device.tablet} {
-  grid-template-columns: 1fr 1fr 1.4fr 1fr;
+    grid-template-columns: 1fr 1fr 1.4fr 1fr;
   }
 `;
 export const Link = styled(NavLink)`

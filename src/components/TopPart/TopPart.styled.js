@@ -2,6 +2,13 @@ import styled from "styled-components";
 import { colors, device } from "../../constants";
 import photo1 from "../../assets/photo/photo1.webp";
 import photo2 from "../../assets/photo/photo2.webp";
+import backgDesctop from "../../assets/background/top_background.svg";
+
+export const StyleForAllTopPart = styled.div`
+  background: url(${backgDesctop}) no-repeat bottom;
+  background-size: cover;
+
+`;
 
 export const ArticleContainer = styled.section`
   width: 87%;
@@ -67,8 +74,7 @@ export const Buttons = styled.nav`
 `;
 
 export const SectionForImages = styled.section`
-  background: url(${photo2}) right bottom,
-    url(${photo1}) right 45% top 10%;
+  background: url(${photo2}) right bottom, url(${photo1}) right 45% top 10%;
   background-size: 38%, 35%;
   background-repeat: no-repeat;
 `;
