@@ -55,7 +55,7 @@ export const Buttons = styled.nav`
     border-radius: 30px;
     font-family: Nunito Sans;
     cursor: pointer;
-    padding: 3%;
+    padding: 4% 3% ;
   }
   .more {
     border: 2px solid ${colors.orange};
