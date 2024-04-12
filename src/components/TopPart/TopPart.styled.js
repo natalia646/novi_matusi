@@ -4,7 +4,7 @@ import photo1 from "../../assets/photo/photo1.webp";
 import photo2 from "../../assets/photo/photo2.webp";
 import backgDesctop from "../../assets/background/top_background.svg";
 
-export const StyleForAllTopPart = styled.div`
+export const StyleForAllTopPart = styled.article`
   background: url(${backgDesctop}) no-repeat bottom;
   background-size: cover;
 
