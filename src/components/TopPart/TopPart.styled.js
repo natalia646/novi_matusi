@@ -48,20 +48,21 @@ export const Buttons = styled.nav`
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 5px;
   margin: 7% 0;
-
+  
   a {
     font-size: 1.5vw;
     text-align: center;
     border-radius: 30px;
     font-family: Nunito Sans;
     cursor: pointer;
+    padding: 3%;
   }
   .more {
     border: 2px solid ${colors.orange};
     background: ${colors.white};
     color: ${colors.orange};
     text-decoration: none;
-    padding: 10px 27px;
+    
     &:hover {
       border: 2px solid #f46600;
       color: #f46600;

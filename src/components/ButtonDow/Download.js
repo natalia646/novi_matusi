@@ -18,13 +18,13 @@ const Button = styled(Link)`
   font-weight: 700;
   border-radius: 30px;
   background: ${colors.orange};
-  padding: 10px 27px;
+  /* padding: 10px 27px; */
   color: white;
   border: none;
   font-family: Nunito Sans;
   cursor: pointer;
   text-decoration: none;
-
+  
   &:hover {
     background-color: ${colors.hover};
   }
