@@ -30,12 +30,14 @@ export const Block = styled.div`
   border-radius: 30px;
   margin: auto;
 
-  /* 
+ 
   img {
     width: 100%;
     max-width: 80px;
-    margin: 4% 0 0 0;
+    height: auto;
+    /* margin: 4% 0 0 0; */
   }
+   /* 
   h4{
     font-size: 1.4vw;
     /* margin: 1rem ;
