@@ -20,6 +20,7 @@ export const HeaderContainer = styled.header`
 export const Logo = styled.img`
   width: 100%;
   max-width: 3rem;
+  height: auto;
 `;
 export const Navigation = styled.nav`
   display: grid;
