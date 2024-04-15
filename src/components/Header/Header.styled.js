@@ -26,6 +26,7 @@ export const Navigation = styled.nav`
   display: grid;
   align-items: center;
   grid-template-columns: repeat(2, 1fr) 1.2fr repeat(2, 1fr);
+  grid-column-gap: 1rem;
   text-align: center;
 
   @media ${device.tablet} {
@@ -38,3 +39,9 @@ export const Link = styled(NavLink)`
   font-weight: 400;
   color: ${colors.black};
 `;
+
+export const BurgerMenu = styled.img`
+width: 100%;
+max-width: 3rem;
+height: auto;
+`
