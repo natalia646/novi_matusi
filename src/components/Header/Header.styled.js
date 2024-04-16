@@ -44,4 +44,9 @@ export const BurgerMenu = styled.img`
 width: 100%;
 max-width: 3rem;
 height: auto;
+display: none;
+
+@media ${device.mobile} {
+  display: block;
+}
 `
