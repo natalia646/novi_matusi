@@ -6,6 +6,7 @@ import { colors } from "../../constants";
 export default function Download() {
   return (
     <Button
+      className="button"
       target="_blank"
       to="https://play.google.com/store/apps/details?id=tech.baza_trainee.mama_ne_vdoma"
     >
@@ -24,7 +25,7 @@ const Button = styled(Link)`
   font-family: Nunito Sans;
   cursor: pointer;
   text-decoration: none;
-  
+
   &:hover {
     background-color: ${colors.hover};
   }
