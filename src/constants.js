@@ -18,7 +18,7 @@ export const colors = {
 };
 
 export const device = {
-  // mobileS: `(max-width: 360px)`,
+  mobileS: `(max-width: 360px)`,
   mobile: `(max-width: 579px)`,
   tablet: `(max-width: 768px)`,
   laptop: `(max-width: 1024px)`,
