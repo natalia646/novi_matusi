@@ -22,22 +22,26 @@ export const Blocks = styled.section`
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 2%;
   color: ${colors.black};
+  @media ${device.mobile} {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-row-gap: 2%;
+  }
 `;
 export const Block = styled.div`
   width: 100%;
-  max-width: 300px;
+  max-width: 500px;
   background-color: ${colors.white};
   border-radius: 30px;
   margin: auto;
 
- 
   img {
     width: 100%;
     max-width: 80px;
     height: auto;
     /* margin: 4% 0 0 0; */
   }
-   /* 
+  /* 
   h4{
     font-size: 1.4vw;
     /* margin: 1rem ;
